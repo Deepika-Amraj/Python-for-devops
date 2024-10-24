@@ -1,0 +1,60 @@
+💡 What is Python?
+Python is an open-source, high-level, and object-oriented programming language created by Guido van Rossum. 
+It has an extensive ecosystem with vast libraries and frameworks like Django, Flask, TensorFlow, and Pandas, making it powerful for multiple use cases!
+
+
+
+
+🛠️ Task 1: Install Python & Check Version
+I installed Python on my system and verified the version:
+
+Commands I Used:
+Windows Installation: Download and install from the official website.
+Ubuntu:
+sudo apt-get update
+sudo apt-get install python3.6
+python3 --version
+
+Here’s a brief overview of Python's basic data types with examples:
+
+1. Numbers:
+Used to store numeric values.
+Types include integers, floats, and complex numbers.
+Examples:
+age = 25        # Integer
+temperature = 98.6  # Float
+complex_num = 3 + 5j  # Complex number
+
+2. Strings:
+A sequence of characters, enclosed in quotes (single or double).
+Useful for storing text data.
+Examples:
+name = "Deepika"
+greeting = 'Hello, World!'
+
+3. Lists:
+Ordered, changeable collection of items.
+Allows duplicates and can hold different data types.
+Examples:
+fruits = ["apple", "banana", "cherry"]
+mixed_list = [1, "hello", 3.5]
+
+4. Tuples:
+Ordered, unchangeable collection of items (immutable).
+Uses parentheses () and allows duplicates.
+Examples:
+coordinates = (10.5, 25.0)
+person_info = ("John", 30, "Engineer")
+
+5. Dictionaries:
+Unordered, changeable collection of key-value pairs.
+Keys are unique, values can be any data type.
+Examples:
+student = {"name": "Alice", "age": 22, "grade": "A"}
+
+6. Booleans:
+Represents two values: True or False.
+Useful for logical conditions and control flow.
+Copy code
+is_sunny = True
+has_access = False
